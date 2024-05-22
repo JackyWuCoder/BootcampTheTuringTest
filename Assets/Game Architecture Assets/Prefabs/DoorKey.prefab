@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 6286423099434364453}
   - component: {fileID: 2413605539877310825}
   m_Layer: 0
-  m_Name: rust_key
+  m_Name: DoorKey
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
