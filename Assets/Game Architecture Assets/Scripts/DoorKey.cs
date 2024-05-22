@@ -5,13 +5,13 @@ using UnityEngine.Events;
 
 public class DoorKey : MonoBehaviour
 {
-    public UnityEvent onPickup;
+    public UnityEvent onKeyPicked;
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
         {
-            onPickup.Invoke();
+            onKeyPicked?.Invoke();
             Destroy(gameObject);
         }
     }
