@@ -55,7 +55,7 @@ public class Door : MonoBehaviour
 
     public void OpenDoor(bool doorState)
     {
-        if (isLocked)
+        if (!isLocked)
         {
             doorAnimator.SetBool("Door", doorState);
         }
