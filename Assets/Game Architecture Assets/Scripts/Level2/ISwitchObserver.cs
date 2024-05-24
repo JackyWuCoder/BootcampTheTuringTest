@@ -4,5 +4,5 @@ using UnityEngine;
 
 public interface ISwitchObserver
 {
-    void OnSwitchActivated();
+    public void OnSwitchActivated();
 }

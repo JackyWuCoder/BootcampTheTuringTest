@@ -11,9 +11,10 @@ GameObject:
   - component: {fileID: 427148568426291086}
   - component: {fileID: 7089259803570407513}
   - component: {fileID: 8181850183531332916}
-  m_Layer: 0
+  - component: {fileID: 4381140864885178266}
+  m_Layer: 7
   m_Name: Pressure Cube
-  m_TagString: Untagged
+  m_TagString: PickCube
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -82,6 +83,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &4381140864885178266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5500622051690814827}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 039625ea65c173944b54fd5937422caf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8081941050456738572
 GameObject:
   m_ObjectHideFlags: 0
@@ -93,7 +106,7 @@ GameObject:
   - component: {fileID: 8039020505445867117}
   - component: {fileID: 1667568306696702473}
   - component: {fileID: 4760952738842046099}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Pressure_Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}

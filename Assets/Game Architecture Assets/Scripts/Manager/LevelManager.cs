@@ -9,6 +9,14 @@ public class LevelManager : MonoBehaviour
 
     public UnityEvent onLevelStart, onLevelEnd;
 
+    [SerializeField] public List<PressurePadSwitch> switches;
+    [SerializeField] public DoorObserver door;
+
+    private void Start()
+    {
+        onLevelStart.AddListener(RegisterObservers);
+    }
+
     public void StartLevel()
     {
         onLevelStart?.Invoke();
@@ -24,6 +32,14 @@ public class LevelManager : MonoBehaviour
         else
         {
             GameManager.instance.ChangeState(GameManager.GameState.LevelEnd, this);
+        }
+    }
+
+    private void RegisterObservers()
+    {
+        foreach (var sw in switches)
+        {
+            sw.RegisterObserver(door);
         }
     }
 }
