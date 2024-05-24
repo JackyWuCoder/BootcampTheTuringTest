@@ -6,7 +6,7 @@ public class DoorObserver : MonoBehaviour, ISwitchObserver
 {
     [SerializeField] private Animator doorAnimator;
 
-    private List<PressurePadSwitch> switches = new List<PressurePadSwitch>();
+    [SerializeField] private List<PressurePadSwitch> switches = new List<PressurePadSwitch>();
     private bool isLocked = true;
 
     // Checks if all switches are activated and if it is unlock the door
@@ -24,6 +24,8 @@ public class DoorObserver : MonoBehaviour, ISwitchObserver
     {
         foreach (var sw in switches)
         {
+            Debug.Log("switches.Length: " + switches.Count);
+            Debug.Log("AKLL DFQWEJIQWEQWIHJEQWEQW");
             if (!sw.IsActivated())
             {
                 return false;
