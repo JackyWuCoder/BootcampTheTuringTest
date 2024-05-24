@@ -6,9 +6,6 @@ public class DoorObserver : MonoBehaviour, ISwitchObserver
 {
     [SerializeField] private Animator doorAnimator;
 
-    private float timer = 0;
-    private const float waitTime = 1.0f;
-
     private List<PressurePadSwitch> switches = new List<PressurePadSwitch>();
     private bool isLocked = true;
 
