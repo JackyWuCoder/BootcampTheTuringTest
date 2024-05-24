@@ -2,7 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public interface IShapeMatchingStrategy
+public interface ICommand
 {
-    bool Match(GameObject otherShape);
+    public void Execute();
+    public void Undo();
 }
