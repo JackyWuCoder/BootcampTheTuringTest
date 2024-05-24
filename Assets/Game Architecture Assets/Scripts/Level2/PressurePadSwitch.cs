@@ -52,7 +52,6 @@ public class PressurePadSwitch : MonoBehaviour
             Debug.Log(collider.gameObject.name);
             if (collision.gameObject.CompareTag("PickCube"))
             {
-                Debug.Log("Hi");
                 if (GetComponent<Renderer>().material.color ==
                     collider.gameObject.GetComponentInChildren<Renderer>().material.color)
                 {

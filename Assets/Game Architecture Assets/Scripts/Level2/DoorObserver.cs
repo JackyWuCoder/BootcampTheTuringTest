@@ -29,7 +29,7 @@ public class DoorObserver : MonoBehaviour, ISwitchObserver
                 return false;
             }
         }
-            return true;
+        return true;
     }
 
     private void UnlockDoor()

@@ -9,6 +9,7 @@ public class LevelManager : MonoBehaviour
 
     public UnityEvent onLevelStart, onLevelEnd;
 
+    [Header("Level 2")]
     [SerializeField] public List<PressurePadSwitch> switches;
     [SerializeField] public DoorObserver door;
 
