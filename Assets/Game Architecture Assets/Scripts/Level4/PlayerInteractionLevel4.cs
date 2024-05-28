@@ -17,6 +17,7 @@ public class PlayerInteractionLevel4 : MonoBehaviour
                 if (cube != null)
                 {
                     cube.Request();
+                    Debug.Log(cube.GetColor());
                     PuzzleManager.Instance.CheckPuzzleState();
                 }
             }
