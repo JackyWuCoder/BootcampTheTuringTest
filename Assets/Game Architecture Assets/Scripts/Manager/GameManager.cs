@@ -12,7 +12,7 @@ public class GameManager : MonoBehaviour
     private LevelManager currentLevel;
     private int currentLevelIndex = 0;
 
-    public static GameManager instance;
+    public static GameManager Instance;
 
     public enum GameState
     { 
@@ -26,12 +26,12 @@ public class GameManager : MonoBehaviour
 
     private void Awake()
     {
-        if (instance != null && instance != this)
+        if (Instance != null && Instance != this)
         {
-            Destroy(instance);
+            Destroy(Instance);
             return;
         }
-        instance = this;
+        Instance = this;
     }
 
     private void Start()

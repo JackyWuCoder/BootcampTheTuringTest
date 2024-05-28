@@ -28,11 +28,11 @@ public class LevelManager : MonoBehaviour
         onLevelEnd?.Invoke();
         if (isFinalLevel)
         {
-            GameManager.instance.ChangeState(GameManager.GameState.GameEnd, this);
+            GameManager.Instance.ChangeState(GameManager.GameState.GameEnd, this);
         }
         else
         {
-            GameManager.instance.ChangeState(GameManager.GameState.LevelEnd, this);
+            GameManager.Instance.ChangeState(GameManager.GameState.LevelEnd, this);
         }
     }
 
