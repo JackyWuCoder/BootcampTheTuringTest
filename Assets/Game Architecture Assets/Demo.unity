@@ -217,7 +217,7 @@ PrefabInstance:
     - target: {fileID: 6955395823219228433, guid: 15db32977bfa0d345abefc1c0511ea89,
         type: 3}
       propertyPath: onPush.m_PersistentCalls.m_Calls.Array.size
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 6955395823219228433, guid: 15db32977bfa0d345abefc1c0511ea89,
         type: 3}
@@ -257,6 +257,11 @@ PrefabInstance:
     - target: {fileID: 6955395823219228433, guid: 15db32977bfa0d345abefc1c0511ea89,
         type: 3}
       propertyPath: onPush.m_PersistentCalls.m_Calls.Array.data[7].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6955395823219228433, guid: 15db32977bfa0d345abefc1c0511ea89,
+        type: 3}
+      propertyPath: onPush.m_PersistentCalls.m_Calls.Array.data[8].m_Mode
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6955395823219228433, guid: 15db32977bfa0d345abefc1c0511ea89,
@@ -293,10 +298,15 @@ PrefabInstance:
         type: 3}
       propertyPath: onPush.m_PersistentCalls.m_Calls.Array.data[6].m_Target
       value: 
-      objectReference: {fileID: 1896466223}
+      objectReference: {fileID: 2017756742}
     - target: {fileID: 6955395823219228433, guid: 15db32977bfa0d345abefc1c0511ea89,
         type: 3}
       propertyPath: onPush.m_PersistentCalls.m_Calls.Array.data[7].m_Target
+      value: 
+      objectReference: {fileID: 1896466223}
+    - target: {fileID: 6955395823219228433, guid: 15db32977bfa0d345abefc1c0511ea89,
+        type: 3}
+      propertyPath: onPush.m_PersistentCalls.m_Calls.Array.data[8].m_Target
       value: 
       objectReference: {fileID: 1896466224}
     - target: {fileID: 6955395823219228433, guid: 15db32977bfa0d345abefc1c0511ea89,
@@ -332,6 +342,11 @@ PrefabInstance:
     - target: {fileID: 6955395823219228433, guid: 15db32977bfa0d345abefc1c0511ea89,
         type: 3}
       propertyPath: onPush.m_PersistentCalls.m_Calls.Array.data[7].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6955395823219228433, guid: 15db32977bfa0d345abefc1c0511ea89,
+        type: 3}
+      propertyPath: onPush.m_PersistentCalls.m_Calls.Array.data[8].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6955395823219228433, guid: 15db32977bfa0d345abefc1c0511ea89,
@@ -372,6 +387,11 @@ PrefabInstance:
     - target: {fileID: 6955395823219228433, guid: 15db32977bfa0d345abefc1c0511ea89,
         type: 3}
       propertyPath: onPush.m_PersistentCalls.m_Calls.Array.data[7].m_MethodName
+      value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 6955395823219228433, guid: 15db32977bfa0d345abefc1c0511ea89,
+        type: 3}
+      propertyPath: onPush.m_PersistentCalls.m_Calls.Array.data[8].m_MethodName
       value: StartTimer
       objectReference: {fileID: 0}
     - target: {fileID: 6955395823219228433, guid: 15db32977bfa0d345abefc1c0511ea89,
@@ -417,6 +437,11 @@ PrefabInstance:
     - target: {fileID: 6955395823219228433, guid: 15db32977bfa0d345abefc1c0511ea89,
         type: 3}
       propertyPath: onPush.m_PersistentCalls.m_Calls.Array.data[7].m_TargetAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 6955395823219228433, guid: 15db32977bfa0d345abefc1c0511ea89,
+        type: 3}
+      propertyPath: onPush.m_PersistentCalls.m_Calls.Array.data[8].m_TargetAssemblyTypeName
       value: LevelTimer, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 6955395823219228433, guid: 15db32977bfa0d345abefc1c0511ea89,
@@ -456,6 +481,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6955395823219228433, guid: 15db32977bfa0d345abefc1c0511ea89,
         type: 3}
+      propertyPath: onPush.m_PersistentCalls.m_Calls.Array.data[8].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6955395823219228433, guid: 15db32977bfa0d345abefc1c0511ea89,
+        type: 3}
       propertyPath: onPush.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_StringArgument
       value: Unlocked
       objectReference: {fileID: 0}
@@ -482,6 +512,11 @@ PrefabInstance:
     - target: {fileID: 6955395823219228433, guid: 15db32977bfa0d345abefc1c0511ea89,
         type: 3}
       propertyPath: onPush.m_PersistentCalls.m_Calls.Array.data[7].m_Arguments.m_StringArgument
+      value: 'Level 4 : Solve Pattern, Shoot to Change Color'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6955395823219228433, guid: 15db32977bfa0d345abefc1c0511ea89,
+        type: 3}
+      propertyPath: onPush.m_PersistentCalls.m_Calls.Array.data[8].m_Arguments.m_StringArgument
       value: 'Level 4 : Solve Pattern, Shoot to Change Color'
       objectReference: {fileID: 0}
     - target: {fileID: 6955395823219228433, guid: 15db32977bfa0d345abefc1c0511ea89,
@@ -517,6 +552,11 @@ PrefabInstance:
     - target: {fileID: 6955395823219228433, guid: 15db32977bfa0d345abefc1c0511ea89,
         type: 3}
       propertyPath: onPush.m_PersistentCalls.m_Calls.Array.data[7].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 6955395823219228433, guid: 15db32977bfa0d345abefc1c0511ea89,
+        type: 3}
+      propertyPath: onPush.m_PersistentCalls.m_Calls.Array.data[8].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 8211048477008482925, guid: 15db32977bfa0d345abefc1c0511ea89,
@@ -1191,7 +1231,7 @@ PrefabInstance:
     - target: {fileID: 6955395823219228433, guid: 15db32977bfa0d345abefc1c0511ea89,
         type: 3}
       propertyPath: onPush.m_PersistentCalls.m_Calls.Array.size
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 6955395823219228433, guid: 15db32977bfa0d345abefc1c0511ea89,
         type: 3}
@@ -1226,6 +1266,11 @@ PrefabInstance:
     - target: {fileID: 6955395823219228433, guid: 15db32977bfa0d345abefc1c0511ea89,
         type: 3}
       propertyPath: onPush.m_PersistentCalls.m_Calls.Array.data[6].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6955395823219228433, guid: 15db32977bfa0d345abefc1c0511ea89,
+        type: 3}
+      propertyPath: onPush.m_PersistentCalls.m_Calls.Array.data[7].m_Mode
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6955395823219228433, guid: 15db32977bfa0d345abefc1c0511ea89,
@@ -1257,10 +1302,15 @@ PrefabInstance:
         type: 3}
       propertyPath: onPush.m_PersistentCalls.m_Calls.Array.data[5].m_Target
       value: 
-      objectReference: {fileID: 1896466223}
+      objectReference: {fileID: 2017756742}
     - target: {fileID: 6955395823219228433, guid: 15db32977bfa0d345abefc1c0511ea89,
         type: 3}
       propertyPath: onPush.m_PersistentCalls.m_Calls.Array.data[6].m_Target
+      value: 
+      objectReference: {fileID: 1896466223}
+    - target: {fileID: 6955395823219228433, guid: 15db32977bfa0d345abefc1c0511ea89,
+        type: 3}
+      propertyPath: onPush.m_PersistentCalls.m_Calls.Array.data[7].m_Target
       value: 
       objectReference: {fileID: 1896466224}
     - target: {fileID: 6955395823219228433, guid: 15db32977bfa0d345abefc1c0511ea89,
@@ -1291,6 +1341,11 @@ PrefabInstance:
     - target: {fileID: 6955395823219228433, guid: 15db32977bfa0d345abefc1c0511ea89,
         type: 3}
       propertyPath: onPush.m_PersistentCalls.m_Calls.Array.data[6].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6955395823219228433, guid: 15db32977bfa0d345abefc1c0511ea89,
+        type: 3}
+      propertyPath: onPush.m_PersistentCalls.m_Calls.Array.data[7].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6955395823219228433, guid: 15db32977bfa0d345abefc1c0511ea89,
@@ -1326,6 +1381,11 @@ PrefabInstance:
     - target: {fileID: 6955395823219228433, guid: 15db32977bfa0d345abefc1c0511ea89,
         type: 3}
       propertyPath: onPush.m_PersistentCalls.m_Calls.Array.data[6].m_MethodName
+      value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 6955395823219228433, guid: 15db32977bfa0d345abefc1c0511ea89,
+        type: 3}
+      propertyPath: onPush.m_PersistentCalls.m_Calls.Array.data[7].m_MethodName
       value: StartTimer
       objectReference: {fileID: 0}
     - target: {fileID: 6955395823219228433, guid: 15db32977bfa0d345abefc1c0511ea89,
@@ -1366,6 +1426,11 @@ PrefabInstance:
     - target: {fileID: 6955395823219228433, guid: 15db32977bfa0d345abefc1c0511ea89,
         type: 3}
       propertyPath: onPush.m_PersistentCalls.m_Calls.Array.data[6].m_TargetAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 6955395823219228433, guid: 15db32977bfa0d345abefc1c0511ea89,
+        type: 3}
+      propertyPath: onPush.m_PersistentCalls.m_Calls.Array.data[7].m_TargetAssemblyTypeName
       value: LevelTimer, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 6955395823219228433, guid: 15db32977bfa0d345abefc1c0511ea89,
@@ -1400,6 +1465,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6955395823219228433, guid: 15db32977bfa0d345abefc1c0511ea89,
         type: 3}
+      propertyPath: onPush.m_PersistentCalls.m_Calls.Array.data[7].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6955395823219228433, guid: 15db32977bfa0d345abefc1c0511ea89,
+        type: 3}
       propertyPath: onPush.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_StringArgument
       value: Unlocked
       objectReference: {fileID: 0}
@@ -1421,6 +1491,11 @@ PrefabInstance:
     - target: {fileID: 6955395823219228433, guid: 15db32977bfa0d345abefc1c0511ea89,
         type: 3}
       propertyPath: onPush.m_PersistentCalls.m_Calls.Array.data[6].m_Arguments.m_StringArgument
+      value: 'Level 3 : Shoot the Goblin'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6955395823219228433, guid: 15db32977bfa0d345abefc1c0511ea89,
+        type: 3}
+      propertyPath: onPush.m_PersistentCalls.m_Calls.Array.data[7].m_Arguments.m_StringArgument
       value: 'Level 3 : Shoot the Goblin'
       objectReference: {fileID: 0}
     - target: {fileID: 6955395823219228433, guid: 15db32977bfa0d345abefc1c0511ea89,
@@ -1451,6 +1526,11 @@ PrefabInstance:
     - target: {fileID: 6955395823219228433, guid: 15db32977bfa0d345abefc1c0511ea89,
         type: 3}
       propertyPath: onPush.m_PersistentCalls.m_Calls.Array.data[6].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 6955395823219228433, guid: 15db32977bfa0d345abefc1c0511ea89,
+        type: 3}
+      propertyPath: onPush.m_PersistentCalls.m_Calls.Array.data[7].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 8211048477008482925, guid: 15db32977bfa0d345abefc1c0511ea89,
@@ -10608,7 +10688,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1896466223}
+      - m_Target: {fileID: 2017756742}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -10620,7 +10700,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 2017756742}
+      - m_Target: {fileID: 1896466223}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -11758,18 +11838,6 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 944649823}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1896466223}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -23691,9 +23759,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Congratulations You Won!
-
-'
+  m_text: "Congratulations \nYou Won!\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -23787,7 +23853,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 500, y: 50}
+  m_SizeDelta: {x: 800, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1130578549
 GameObject:
@@ -25274,30 +25340,6 @@ MonoBehaviour:
   onLevelStart:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 8978714050576859108}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 949949766}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 2061899044}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
@@ -25312,67 +25354,7 @@ MonoBehaviour:
         m_CallState: 2
   onLevelEnd:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1730284796}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1730284796}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 8978714050576859108}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 949949766}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 2061899044}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   switches: []
   door: {fileID: 0}
 --- !u!1001 &1234215192
@@ -30879,6 +30861,30 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 944649823}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 944649823}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   patternText: {fileID: 944649825}
 --- !u!1001 &1532694766
 PrefabInstance:
@@ -31415,7 +31421,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 700, y: 50}
+  m_SizeDelta: {x: 800, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1567416637
 MonoBehaviour:
@@ -34660,7 +34666,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1896466223}
+      - m_Target: {fileID: 2017756742}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -34672,7 +34678,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 2017756742}
+      - m_Target: {fileID: 1896466223}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -40234,7 +40240,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2092856051
 RectTransform:
   m_ObjectHideFlags: 0
@@ -42399,7 +42405,7 @@ PrefabInstance:
     - target: {fileID: 6955395823219228433, guid: 15db32977bfa0d345abefc1c0511ea89,
         type: 3}
       propertyPath: onPush.m_PersistentCalls.m_Calls.Array.size
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6955395823219228433, guid: 15db32977bfa0d345abefc1c0511ea89,
         type: 3}
