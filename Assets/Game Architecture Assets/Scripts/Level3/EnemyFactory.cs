@@ -11,7 +11,7 @@ public class EnemyFactory : MonoBehaviour
     public void SpawnEnemyRandomly()
     {
         Transform randomSpawnPoint = GetRandomSpawnPoint();
-        Instantiate(goblin, randomSpawnPoint.position, Quaternion.identity);
+        goblin.transform.position = randomSpawnPoint.position;
         for (int i = 0; i < maxEnemies; i++)
         {
             randomSpawnPoint = GetRandomSpawnPoint();
